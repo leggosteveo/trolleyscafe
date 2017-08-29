@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html ng-app='TrolleysApp'>
+<head>
+	<title>Trolley's American Cafe</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <style>
+    .jumbotron img {width: 100%; height: 100%;}
+  </style>
+  <style type="text/css">
+  .page-title {
+      color: #664d01;
+      font-family: impact;
+    } 
+    .category-title{
+      color: dimgray;
+      font-family: impact;
+    }
+    .jumbotron {
+      padding: 0;
+    }
+    .alert {
+      border-color: #967100; 
+      background-color: white;
+    }
+  </style>
+  <meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
+</head>
+<body style="background-color:#fbe8ae">
+	<header class="jumbotron bg-success jumbotron-fluid" 
+          style="margin-bottom:0;
+                  <!-- background-repeat: no-repeat -->; 
+                  background-color: #664d01; 
+                  font-family:Times;">
+	<div class="container ml-5 align-bottom" 
+       style="color: white;">
+       <div class="row align-bottom">
+       <div class="col-12">
+		<h1 class="text-center" style="float: left;">
+        Trolley's American Cafe 
+        <img src="trolleys-american-cafe.png" style="height:50px; width: 50px; vertical-align: bottom; margin-bottom: 15px;">
+    </h1>
+    
+    </div> <!-- col -->
+    </div> <!-- row -->
+	</div> <!-- container -->
+	</header>
+	<nav ng-controller='NavController' class="navbar navbar-default navbar-sticky-top">
+ 		<div class="container">
+   			<div class="navbar-header">
+     			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+       				<span class="sr-only">Toggle navigation</span>
+       				<span class="icon-bar"></span>
+       				<span class="icon-bar"></span>
+       				<span class="icon-bar"></span>
+     			</button>
+     			<a class="navbar-brand" href="#/">Trolley's</a>
+   			</div>
+   			<div id="navbar" class="collapse navbar-collapse">
+     			<ul class="nav navbar-nav">
+       				<li ng-class="vm.isActiveTab('food')" ><a href="#!/food">Food</a></li>
+      			    <li ng-class="vm.isActiveTab('bev')"><a href="#!/bev">Beverages</a></li>
+       				<li ng-class="vm.isActiveTab('aboutContact')"><a href="#!/aboutContact">About / Contact</a></li>
+     			</ul>
+     
+   			</div>
+ 		</div>
+	</nav>
+	<div class="container" style="background-image: url('Vintage Tampa2.png');
+                                background-size: contain;
+                                background-repeat: no-repeat;">
+		<div ng-view></div>
+	</div>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular-route.min.js"></script>
+<script type="text/javascript" src="app.js"></script>
+<script type="text/javascript" src="food-data-factory/food-data-factory.js"></script>
+<script type="text/javascript" src="controllers/TrolleysControllers.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+
+<div class="row mb-6">
+	<div class="col-12 mb-6">
+		<div class="">
+				<h1 class="text-center page-title">FOOD</h1>
+				<h3 class="text-center page-title">GF - GLUTEN FRIENDLY / VGT - VEGETARIAN FRIENDLY</h3>
+		</div>
+	</div>
+</div>
+<div class="row mb-4">
+	<div ng-repeat="category in vm.food" class="col-12 col-md-6">
+		<div class="mb-3">
+			<h3 class="text-center-md category-title mb-5">{{category.name}}</h3>
+		</div>
+		<div ng-repeat="food in category.items">
+
+			<h4>{{food.iname}}</h4>	
+			<p>{{food.idescription}}</p>
+			<p>{{food.iprice | currency}}</p>
+		</div>
+		<div ng-if="category.info" class="alert" style="border-color: #664d01; background-color: white;">{{category.info}}</div>
+	</div>
+</div>

@@ -1,0 +1,192 @@
+[{
+	"name"  :"STARTERS",
+  "items" : [{
+        "_id"  : ObjectId (),
+        "iname": "Cuban Sliders",
+		    "idescription" : "Pickled Zucchini, Mustard Aioli",
+		 	  "iprice" : 14
+        }, {
+        "_id"  : ObjectId (),
+		  	"iname":"Steak Quesadilla",
+		  	"idescription":"Prime Rib, Red Onion, Mushrooms, Cheese",
+        "iprice":14
+        }, {
+        "_id"  : ObjectId (),
+		    "iname":"Chicken Quesadilla",
+		    "idescription":"Chicken, Red Onion, Green Peppers, Cheese",
+		    "iprice":13
+        }, {
+        "_id"  : ObjectId (),
+		    "iname":"Mushroom Bruschetta - VGT",
+		    "idescription":"Portobello, Tomato Basil, Shaved Parmesan",
+		    "iprice":11
+        }, {
+        "_id"  : ObjectId (),
+		    "iname":"Santa Fe Eggrolls",
+		    "idescription":"Avocado Ranch Dipping Sauce",
+		    "iprice":12
+        }, {
+        "_id"  : ObjectId (),
+		    "iname":"Wings *",
+		    "idescription":"(Buffalo, BBQ, Soy-Ginger Glaze) , 10 - $13 / 18 - $19 / 24 - $22",
+		    "iprice":[13,19,22]
+        }, {
+        "_id"  : ObjectId (),
+        "iname":"Tomato Basil Bisque ",
+        "idescription":"","Price":8
+        }, {
+        "_id"  : ObjectId (),
+        "iname":"Soup of the Moment",
+        "idescription":"",
+        "iprice":8
+        }]
+}, {
+   "name":"SALADS",
+        "items" : [{
+        "_id"  : ObjectId (),
+        "iname":"Southwest - VGT",
+        "idescription":"Romaine, Roasted Corn and Black Bean Salsa,Fried Onions, Avocado Ranch Drizzle,Chipotle Lime Dressing",
+        "iprice":14
+        }, {
+        "_id"  : ObjectId (),
+        "iname":"Kale Avacado - VGT",
+        "idescription":"Kale, Avocado, Blue Cheese, Candied Pecans, Red Onion, Lemon, Olive Oil",
+        "iprice":14
+        }, {
+        "_id"  : ObjectId (),
+        "iname":"Icebergwedge",
+        "idescription":"Iceberg, Diced Tomatoes, Bacon Bits, Blue Cheese Crumbles, Fried Onion Straws, Sun Dried Tomato Ranch",
+        "iprice":13
+        }]
+}, {
+    "name":"BURGERS",
+    "items":[{
+        "_id"  : ObjectId (),
+        "iname":"Brie Burger",
+        "idescription":"All Natural Hamburger, Bacon-Honey Aioli, Brie, Arugula on a Pretzel Bun",
+        "iprice":17
+        }, {
+        "_id"  : ObjectId (),
+        "iname":"Salmon BLT",
+        "idescription":"Bacon, Lettuce, Tomato, Caper Aioli on a Whole Wheat Bun",
+        "iprice":15
+        }, {
+        "_id"  : ObjectId (),
+        "iname":"Trolley Burger",
+        "idescription":"All Natural Hamburger, Lettuce, Tomato, Onion, Cheese on a Brioche Bun",
+        "iprice":15
+        }, {
+        "_id"  : ObjectId (),
+        "iname":"Grilled Mediterranean Chicken Burger",
+        "idescription" : "Sliced Avocado, Olive Tapenade, Lettuce, Tomato, Onion on a Brioche Bun",
+        "iprice":13
+        }],
+    "info":"Burgers include choice of: STRAIGHT CUT FRIES /  SWEET POTATO FRIES  / TATER TOTS"
+}, {
+    "name":"SANDWICHES",
+    "items":[{
+        "_id"  : ObjectId (),
+        "iname":"Pork Belly Reuben",
+        "idescription":"Sauerkraut, 1000 Island Dressing, Swiss Cheese on a Pretzel Bun",
+        "iprice":14
+        }, {
+        "_id"  : ObjectId (),
+        "iname":"Prime Rib Cheesesteak",
+        "idescription":"Prime Rib, Green Peppers, Onions, Mushrooms, Cheddar Cheese Sauce on a Hoagie Roll",
+        "iprice":14
+        }, {
+        "_id"  : ObjectId (),
+        "iname":"Meatball Hoagie",
+        "idescription":"Marinara, Shaved Parmesan, Fried Prosciutto, Shredded Mozzarella on a Hoagie Roll",
+        "iprice":12
+        }, {
+        "_id"  : ObjectId (),
+        "iname":"Turkey-Brie Wrap",
+        "idescription":"Turkey, Brie, Pears, Cranberry Aioli, Arugula in a Basil Tomato Wrap",
+        "iprice":13
+        },  {
+        "_id"  : ObjectId (),       
+        "iname":"Mahi-Mahi Fish Tacos",
+        "idescription":"Blackened or Grilled Mahi-Mahi, Pico de Gallo, Queso Blanco, Avocado Crema, Cilantro, Arugula",
+        "Price":15
+        }],
+    "info":"Sandwiches include choice of: STRAIGHT CUT FRIES /  SWEET POTATO FRIES  / TATER TOTS"
+}, {
+    "name":"SIDES",
+    "items":[{
+         "_id"  : ObjectId (),
+         "iname":"Straight Cut Fries",
+         "idescription":"","Price":5
+         }, {
+         "_id"  : ObjectId (),
+         "iname":"Sweet Potato Fries",
+         "idescription":"Prime Rib, Green Peppers, Onions, Mushrooms, Cheddar Cheese Sauce on a Hoagie Roll",
+         "iprice":5
+         }, {
+         "_id"  : ObjectId (),
+         "iname":"Tator Tots",
+         "idescription":"",
+         "iprice":6
+         }, {
+         "_id"  : ObjectId (),
+         "iname":"Side Salad",
+         "idescription":"Turkey, Brie, Pears, Cranberry Aioli, Arugula in a Basil Tomato Wrap",
+         "iprice":6
+         }]
+}, {
+    "name":"ENTREES",
+    "items":[{
+         "_id"  : ObjectId (),
+         "iname":"Fava Bean Mushroom Risotto  - GF",
+         "idescription":"Fava Beans, Mushrooms, Prosciutto, Parmesan",
+         "iprice":16
+         }, {
+         "_id"  : ObjectId (),
+         "iname":"Blackened Shrimp Mac N Cheese",
+         "idescription":"Blackened Shrimp, Chorizo, Tomatoes, Mac N Cheese",
+         "iprice":19
+         }, {
+         "_id"  : ObjectId (),
+         "iname":"Flat Iron Steak",
+         "idescription":"With Chimichurri Sauce, Starch and Vegetable of the Day",
+         "iprice":28
+         }, {
+         "_id"  : ObjectId (),
+         "iname":"Garlic Lemon Mahi","idescription":"Baked Mahi with Garlic, Starch and Vegetable of the Day",
+         "iprice":22
+         }, {
+         "_id"  : ObjectId (),
+         "iname":"Half Roasted Chicken",
+         "idescription":"Pan Au Jus, Starch and Vegetable of the Day","Price":20
+         }],
+    "info":"Entrees served after 5pm"
+}, {
+    "name":"DESSERTS",
+    "items":[{
+         "_id"  : ObjectId (),
+         "iname":"Raspberry Amaretto Chessecake",
+         "idescription":"",
+         "iprice":8
+         }, {
+         "_id"  : ObjectId (),
+         "iname":"Toffee Mousse",
+         "idescription":"",
+         "iprice":7
+         }, {
+         "_id"  : ObjectId (),
+         "iname":"Snickers Pie",
+         "idescription":"",
+         "iprice":8
+         }, {
+         "_id"  : ObjectId (),
+         "iname":"Flourless Chocolate Cake - GF",
+         "idescription":"",
+         "iprice":8
+         }, { 
+         "_id"  : ObjectId (),
+         "iname":"Strawberry Shortcake",
+         "idescription":"",
+         "iprice":8
+         }]
+      }
+]

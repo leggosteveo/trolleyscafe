@@ -1,0 +1,165 @@
+{'categories': [{
+							name: 'STARTERS',
+							Items:[{
+								Name: 'Cuban Sliders',
+						 		Description: 'Pickled Zucchini, Mustard Aioli',
+						 		Price:	14
+								},
+								{Name: 'Steak Quesadilla',
+						 		Description: 'Prime Rib, Red Onion, Mushrooms, Cheese',
+						 		Price:14	
+								},
+								{Name: 'Chicken Quesadilla',
+						 		Description: 'Chicken, Red Onion, Green Peppers, Cheese',
+						 		Price:13	
+								},
+								{Name: 'Mushroom Bruschetta - VGT',
+								 Description: 'Portobello, Tomato Basil, Shaved Parmesan',
+								 Price:11	
+								},
+								{Name: 'Santa Fe Eggrolls',
+								 Description: 'Avocado Ranch Dipping Sauce',
+								 Price:12	
+								},
+								{Name: 'Wings *',
+								 Description: '(Buffalo, BBQ, Soy-Ginger Glaze) , 10 - $13 / 18 - $19 / 24 - $22',
+								 Price:	[13, 19, 22]
+								},
+								{Name: 'Tomato Basil Bisque ',
+								 Description: '',
+								 Price:8	
+								},
+								{Item: 'Soup of the Moment',
+								 Description: '',
+								 Price:8	
+								}
+							]
+			},
+							{name: 'SALADS',
+							Items:[
+								{Name: 'Southwest - VGT',
+								 Description: 'Romaine, Roasted Corn and Black Bean Salsa,Fried Onions, Avocado Ranch Drizzle, Chipotle Lime Dressing',
+								 Price:	14
+								},
+								{Name: 'Kale Avacado - VGT',
+								 Description: 'Kale, Avocado, Blue Cheese, Candied Pecans, Red Onion, Lemon, Olive Oil',
+								 Price:14	
+								},
+								{Name: 'Icebergwedge',
+								 Description: 'Iceberg, Diced Tomatoes, Bacon Bits, Blue Cheese Crumbles, Fried Onion Straws, Sun Dried Tomato Ranch',
+								 Price:13	
+								}
+							]
+			},				{name: 'BURGERS',
+							Items:[
+								{Name: 'Brie Burger',
+								 Description: 'All Natural Hamburger, Bacon-Honey Aioli, Brie, Arugula on a Pretzel Bun',
+								 Price:	17
+								},
+								{Name: 'Salmon BLT',
+								 Description: 'Bacon, Lettuce, Tomato, Caper Aioli on a Whole Wheat Bun',
+								 Price:15	
+								},
+								{Name: 'Trolley Burger',
+								 Description: 'All Natural Hamburger, Lettuce, Tomato, Onion, Cheese on a Brioche Bun',
+								 Price:15	
+								},
+								{Name: 'Grilled Mediterranean Chicken Burger',
+								 Description: 'Sliced Avocado, Olive Tapenade, Lettuce, Tomato, Onion on a Brioche Bun',
+								 Price:13	
+								}
+							],
+							info: 'Burgers include choice of: STRAIGHT CUT FRIES /  SWEET POTATO FRIES  / TATER TOTS'
+			},				{name: 'SANDWICHES',
+							Items:[
+								{Name: 'Pork Belly Reuben',
+								 Description: 'Sauerkraut, 1000 Island Dressing, Swiss Cheese on a Pretzel Bun',
+								 Price:	14
+								},
+								{Name: 'Prime Rib Cheesesteak',
+								 Description: 'Prime Rib, Green Peppers, Onions, Mushrooms, Cheddar Cheese Sauce on a Hoagie Roll',
+								 Price:14	
+								},
+								{Name: 'Meatball Hoagie',
+								 Description: 'Marinara, Shaved Parmesan, Fried Prosciutto, Shredded Mozzarella on a Hoagie Roll',
+								 Price:12	
+								},
+								{Name: 'Turkey-Brie Wrap',
+								 Description: 'Turkey, Brie, Pears, Cranberry Aioli, Arugula in a Basil Tomato Wrap',
+								 Price:13	
+								},
+								{Name: 'Mahi-Mahi Fish Tacos',
+								 Description: 'Blackened or Grilled Mahi-Mahi, Pico de Gallo, Queso Blanco, Avocado Crema, Cilantro, Arugula',
+								 Price:15	
+								}
+							],
+							info: 'Sandwiches include choice of: STRAIGHT CUT FRIES /  SWEET POTATO FRIES  / TATER TOTS'
+			},				{name: 'SIDES',
+							Items:[
+								{Name: 'Straight Cut Fries',
+								 Description: '',
+								 Price:	5
+								},
+								{Name: 'Sweet Potato Fries',
+								 Description: 'Prime Rib, Green Peppers, Onions, Mushrooms, Cheddar Cheese Sauce on a Hoagie Roll',
+								 Price:5	
+								},
+								{Name: 'Tator Tots',
+								 Description: 'Marinara, Shaved Parmesan, Fried Prosciutto, Shredded Mozzarella on a Hoagie Roll',
+								 Price:6	
+								},
+								{Name: 'Side Salad',
+								 Description: 'Turkey, Brie, Pears, Cranberry Aioli, Arugula in a Basil Tomato Wrap',
+								 Price:6	
+								}
+							]
+			},				{name: 'ENTREES',
+							Items:[
+								{Name: 'Fava Bean Mushroom Risotto  - GF',
+								 Description: 'Fava Beans, Mushrooms, Prosciutto, Parmesan',
+								 Price:	16
+								},
+								{Name: 'Blackened Shrimp Mac N Cheese',
+								 Description: 'Blackened Shrimp, Chorizo, Tomatoes, Mac N Cheese',
+								 Price:19	
+								},
+								{Name: 'Flat Iron Steak',
+								 Description: 'With Chimichurri Sauce, Starch and Vegetable of the Day',
+								 Price:28	
+								},
+								{Name: 'Garlic Lemon Mahi',
+								 Description: 'Baked Mahi with Garlic, Starch and Vegetable of the Day',
+								 Price:22	
+								},
+								{Name: 'Half Roasted Chicken',
+								 Description: 'Pan Au Jus, Starch and Vegetable of the Day',
+								 Price:20	
+								}
+							],
+							info:'Entrees served after 5pm'
+			},				{name: 'DESSERTS',
+							Items:[
+								{Name: 'Raspberry Amaretto Chessecake',
+								 Description: '',
+								 Price:	8
+								},
+								{Name: 'Toffee Mousse',
+								 Description: '',
+								 Price:7	
+								},
+								{Name: 'Snickers Pie',
+								 Description: '',
+								 Price:8	
+								},
+								{Name: 'Flourless Chocolate Cake - GF',
+								 Description: '',
+								 Price:8	
+								},
+								{Name: 'Strawberry Shortcake',
+								 Description: '',
+								 Price:8	
+								}
+							]
+						}
+					]
+			}
