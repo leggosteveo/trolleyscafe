@@ -33,7 +33,6 @@ app.get('/cool', function(request, response) {
 });
 
 // Listen for requests
-var server = app.listen(app.get('port'), function() {
-  var port = server.address().port;
-  console.log('Magic happens on port ' + port);
+var server = app.listen(process.env.PORT || 5000, function(){
+  console.log('magic happens on', http.address().port);
 });
