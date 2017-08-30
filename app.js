@@ -9,7 +9,7 @@ var bodyParser = require('body-parser');
 var routes = require('./api/routes');
 
 // Define the port to run on
-app.set('port', 5000);
+app.set('port', (process.env.PORT || 5000));
 
 // Add middleware to console log every request
 app.use(function(req, res, next) {
@@ -33,6 +33,7 @@ app.get('/cool', function(request, response) {
 });
 
 // Listen for requests
-var server = app.listen(process.env.PORT || 5000, function(){
-  console.log('magic happens on', http.address().port);
+var server = app.listen(app.get('port'), function() {
+  var port = server.address().port;
+  console.log('Magic happens on port ' + port);
 });
