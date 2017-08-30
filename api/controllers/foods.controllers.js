@@ -51,7 +51,7 @@ module.exports.foodsGetAll = function(req, res) {
   console.log(req.query);
 
   var offset = 0;
-  var count = 5;
+  var count = 20;
   var maxCount = 50;
 
   if (req.query && req.query.lat && req.query.lng) {
