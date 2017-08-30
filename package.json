@@ -19,6 +19,7 @@
     "mocha": "^2.3.3"
   },
   "scripts": {
+    "start" : "app.js",
     "test": "mocha"
   },
   "repository": {
