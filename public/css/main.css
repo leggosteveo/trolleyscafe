@@ -1,0 +1,36 @@
+.category-title {
+  color: #d9b538;
+  font-family: impact;
+}
+
+.header {
+  background-color: #664d01;
+  font-family: Times;
+}
+
+.hero-header {
+  color: white;
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+.page-title {
+  color: #664d01;
+  font-family: impact;
+}
+
+.jumbotron {
+  padding: 0;
+  margin-bottom: 0 !important;
+}
+.jumbotron img {
+  width: 100%;
+  height: 100%;
+}
+.alert {
+  border-color: #967100;
+  background-color: white;
+  color: #664d0f;
+}
